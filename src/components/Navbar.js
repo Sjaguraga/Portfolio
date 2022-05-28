@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <img src={logo2} alt="Logo Image" style={{ width: "110px" }} />
+        <img src={logo2} alt="logo" style={{ width: "110px" }} />
       </div>
 
       {/* menu */}
