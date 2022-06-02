@@ -26,7 +26,7 @@ function Work() {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Citi Bike 2.0
               </span>
               <div className="pt-8 text-center">
                 <a href="">
@@ -49,7 +49,7 @@ function Work() {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Movie Application
               </span>
               <div className="pt-8 text-center">
                 <a href="">
@@ -72,7 +72,7 @@ function Work() {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Sails Application
               </span>
               <div className="pt-8 text-center">
                 <a href="">
@@ -95,7 +95,7 @@ function Work() {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Sweet Science
               </span>
               <div className="pt-8 text-center">
                 <a href="">
@@ -103,7 +103,7 @@ function Work() {
                     Demo
                   </button>
                 </a>
-                <a href="">
+                <a href="https://github.com/Sjaguraga/Phase-4-Project">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -118,15 +118,15 @@ function Work() {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Sneaker World
               </span>
               <div className="pt-8 text-center">
-                <a href="">
+                <a href="https://phase-5-sneaker-world-app.herokuapp.com">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="">
+                <a href="https://github.com/Sjaguraga/sneaker_world">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
