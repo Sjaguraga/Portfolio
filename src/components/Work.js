@@ -34,7 +34,7 @@ function Work() {
                     Demo
                   </button>
                 </a>
-                <a href="">
+                <a href="https://github.com/Sjaguraga/CitiBike2.0">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -57,7 +57,7 @@ function Work() {
                     Demo
                   </button>
                 </a>
-                <a href="">
+                <a href="https://github.com/Sjaguraga/Phase-2-movie-app">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -80,7 +80,7 @@ function Work() {
                     Demo
                   </button>
                 </a>
-                <a href="">
+                <a href="https://github.com/Sjaguraga/Sail-App">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
