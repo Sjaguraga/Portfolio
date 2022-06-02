@@ -56,7 +56,7 @@ function Navbar() {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl">
+        <li className="py-5 text-4xl">
           <Link
             onClick={handleClick}
             to="home"
@@ -67,7 +67,7 @@ function Navbar() {
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-5 text-4xl">
           <Link
             onClick={handleClick}
             to="about"
@@ -78,7 +78,7 @@ function Navbar() {
             About
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-5 text-4xl">
           {" "}
           <Link
             onClick={handleClick}
@@ -90,7 +90,7 @@ function Navbar() {
             Skills
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-5 text-4xl">
           {" "}
           <Link
             onClick={handleClick}
@@ -102,7 +102,7 @@ function Navbar() {
             Projects
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-5 text-4xl">
           <Link
             onClick={handleClick}
             to="contact"
@@ -113,6 +113,41 @@ function Navbar() {
             Contact
           </Link>
         </li>
+        <ul className="flex py-6">
+          <li>
+            {" "}
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://www.linkedin.com/in/serref-jaguraga-2827041b6/"
+            >
+              <FaLinkedin size={30} />
+            </a>
+          </li>
+          <li>
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://github.com/Sjaguraga"
+            >
+              <FaGithub size={30} />
+            </a>
+          </li>
+          <li>
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="mailto: reef163@gmail.com"
+            >
+              <HiOutlineMail size={30} />
+            </a>
+          </li>
+          <li>
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://docs.google.com/document/d/1CjxI-8FOhxX-tOmUg2rtsNp9BgALp2B9L1f1nnTd5A0/edit?usp=sharing"
+            >
+              <BsFillPersonLinesFill size={30} />
+            </a>
+          </li>
+        </ul>
       </ul>
 
       {/* Social icons */}
