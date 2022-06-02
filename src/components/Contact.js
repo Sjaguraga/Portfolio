@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-[#0a192f] flex justify-center items-cent p-4"
+      className="w-full h-screen bg-[#0a192f] flex justify-center items-center p-4"
     >
       <form
         method="POST"
@@ -16,7 +16,7 @@ function Contact() {
             Contact
           </p>
           <p className=" text-gray-300 py-4">
-            Submit the form below or shoot me an email - reef163@gmail.com
+            Submit the form below or reach out via email - reef163@gmail.com
           </p>
         </div>
         <input
