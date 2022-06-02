@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useState } from "react";
+import { Link } from "react-scroll";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -15,11 +16,31 @@ function Navbar() {
 
       {/* menu */}
       <ul className="hidden md:flex text-xs">
-        <li>H O M E</li>
-        <li>A B O U T</li>
-        <li>S K I L L S</li>
-        <li>P R O J E C T S</li>
-        <li>C O N T A C T</li>
+        <li>
+          <Link to="home" spy={true} smooth={true} duration={500}>
+            H O M E
+          </Link>
+        </li>
+        <li>
+          <Link to="about" spy={true} smooth={true} duration={500}>
+            A B O U T
+          </Link>
+        </li>
+        <li>
+          <Link to="skills" spy={true} smooth={true} duration={500}>
+            S K I L L S
+          </Link>
+        </li>
+        <li>
+          <Link to="work" spy={true} smooth={true} duration={500}>
+            P R O J E C T S
+          </Link>
+        </li>
+        <li>
+          <Link to="contact" spy={true} smooth={true} duration={500}>
+            C O N T A C T
+          </Link>
+        </li>
       </ul>
 
       {/* Hamburger */}
@@ -35,11 +56,63 @@ function Navbar() {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl">Home</li>
-        <li className="py-6 text-4xl">About</li>
-        <li className="py-6 text-4xl">Skills</li>
-        <li className="py-6 text-4xl">Projects</li>
-        <li className="py-6 text-4xl">Contact</li>
+        <li className="py-6 text-4xl">
+          <Link
+            onClick={handleClick}
+            to="home"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Home
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link
+            onClick={handleClick}
+            to="about"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            About
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          {" "}
+          <Link
+            onClick={handleClick}
+            to="skills"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Skills
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          {" "}
+          <Link
+            onClick={handleClick}
+            to="work"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Projects
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link
+            onClick={handleClick}
+            to="contact"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* Social icons */}
@@ -48,7 +121,7 @@ function Navbar() {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] durations-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://www.linkedin.com/in/serref-jaguraga-2827041b6/"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -56,7 +129,7 @@ function Navbar() {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] durations-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://github.com/Sjaguraga"
             >
               GitHub <FaGithub size={30} />
             </a>
@@ -72,7 +145,7 @@ function Navbar() {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] durations-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://docs.google.com/document/d/1CjxI-8FOhxX-tOmUg2rtsNp9BgALp2B9L1f1nnTd5A0/edit?usp=sharing"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
